@@ -1,5 +1,5 @@
 $(function() {
-	$('body').scrollspy({ target: '#navbar'})
+	$('body').scrollspy({ target: '#navbar6'})
 
 	smoothScroll(400);
 
@@ -16,7 +16,7 @@ $(function() {
 	    }
 	});
 }
-
+'use strict';
 //ustalenie elementu aktywnego
 const activeEl = document.getElementsByClassName('active')[0];
 const slideList = document.getElementsByClassName('slide-unit');
