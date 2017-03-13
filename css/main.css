@@ -75,7 +75,9 @@ header {
     opacity: 0; } }
 .navbar-default {
   background-color: transparent;
-  border-color: transparent; }
+  border-color: transparent;
+  margin-right: -70px;
+  margin-top: 10px; }
   .navbar-default .navbar-nav li a {
     display: inline-block;
     font-size: 1.7em;
@@ -101,10 +103,6 @@ header {
     .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
       background-color: transparent;
       color: rgba(255, 255, 255, 0.9); }
-
-.navbar-right {
-  margin-right: -70px;
-  margin-top: 10px; }
 
 .about-section {
   background: url(../img/bg2.jpg) center center;
@@ -145,33 +143,33 @@ header {
     line-height: 1;
     border: 0; }
 
-.testimonials-section {
+.carousel-section {
   background-color: #DCF5FF;
   overflow-x: hidden;
   padding-bottom: 55px; }
-  .testimonials-section h2 {
+  .carousel-section h2 {
     padding: 50px 0; }
-  .testimonials-section .right {
+  .carousel-section .right {
     color: red; }
-  .testimonials-section .brand-wrapper {
+  .carousel-section .brand-wrapper {
     padding-bottom: 5px;
     display: inline-block;
     min-width: 1px; }
-    .testimonials-section .brand-wrapper:hover {
+    .carousel-section .brand-wrapper:hover {
       background-color: yellow; }
-    .testimonials-section .brand-wrapper .brand-content {
+    .carousel-section .brand-wrapper .brand-content {
       font-size: 2.5em;
       font-weight: 700;
       text-transform: uppercase;
       background-color: white;
       padding-bottom: 5px;
       display: inline-block; }
-  .testimonials-section .slider {
+  .carousel-section .slider {
     position: relative;
     height: 22vw;
     width: 30vw;
     margin: 0 35vw 0 35vw; }
-    .testimonials-section .slider .slide-unit {
+    .carousel-section .slider .slide-unit {
       position: absolute;
       height: 50%;
       width: 50%;
@@ -180,7 +178,7 @@ header {
       background: url(../img/bg-carousel.jpeg) center center;
       background-size: cover;
       transition: all 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-      .testimonials-section .slider .slide-unit.active {
+      .carousel-section .slider .slide-unit.active {
         position: absolute;
         height: 100%;
         width: 100%;
