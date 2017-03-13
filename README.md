@@ -1,1 +1,1 @@
-# vanillaJS-slider
+# vanillaJS-carousel
